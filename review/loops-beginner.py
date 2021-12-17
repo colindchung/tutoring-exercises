@@ -5,10 +5,17 @@ while i <= 10:
     print(i)
     i += 1
 
+print("")
+print("-----------------------------------------")
+print("")
+
 # count from 1-10 using a for loop
 for i in range(1,11):
     print(i)
 
+print("")
+print("-----------------------------------------")
+print("")
 
 # count backwards from 10 using a while loop
 i = 10
@@ -16,10 +23,17 @@ while i > 0:
     print(i)
     i -= 1
 
+print("")
+print("-----------------------------------------")
+print("")
+
 # count backwards from 10 using a for loop
 for i in range(10, 0, -1):
     print(i)
 
+print("")
+print("-----------------------------------------")
+print("")
 
 arr = [10,20,30,40,50,60,70,80,90]
 
