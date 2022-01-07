@@ -6,7 +6,7 @@ my_age = 10
 age_difference = abs(my_age - age)
 print("We are " + str(age_difference) + " years apart!")
 
-favourite_food = input("What is your favourite food?")
+favourite_food = input("What is your favourite food?\n")
 print(favourite_food + " sounds yummy!")
 
 print("Anyways, it was nice meeting you, " + name + ", let's talk again soon. Goodbye!")
