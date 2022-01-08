@@ -1,7 +1,7 @@
 import turtle, time
 
 screen = turtle.Screen()
-screen.title("Leo's Grid")
+screen.title("Tic Tac Toe")
 screen.setup(width=500, height=500)
 turtle = turtle.Turtle()
 turtle.shape("square")
@@ -55,6 +55,26 @@ def drawGrid():
   turtle.pendown()
   turtle.goto(150,-50)
 
+  turtle.penup()
+  turtle.goto(-60, 50)
+  turtle.write("0")
+  turtle.goto(40, 50)
+  turtle.write("1")
+  turtle.goto(140, 50)
+  turtle.write("2")
+  turtle.goto(-60, -50)
+  turtle.write("3")
+  turtle.goto(40, -50)
+  turtle.write("4")
+  turtle.goto(140, -50)
+  turtle.write("5")
+  turtle.goto(-60, -150)
+  turtle.write("6")
+  turtle.goto(40, -150)
+  turtle.write("7")
+  turtle.goto(140, -150)
+  turtle.write("8")
+
 def drawX():
   turtle.pendown()
   turtle.setheading(45)
@@ -102,9 +122,6 @@ def checkGame(symbol, position, pname):
 def startGame():
   drawGrid()
   print("Welcome to Tic Tac Toe!")
-  print("0 1 2")
-  print("3 4 5")
-  print("6 7 8")
   p1Name = input("Player 1, what is your name? ")
   print("Welcome " + p1Name + "!")
   p2Name = input("Player 2, what is your name? ")
